@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Canonical Frontend Registry Web Extension",
+  "version": "0.1",
+  "description": "demo of web extension to check for malicious / compromised frontend code from a known list",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": [
+      "./dist/background.js"
+    ],
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "./dist/content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/16.png"
+  }
+}
