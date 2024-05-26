@@ -1,6 +1,6 @@
 # Canonical Frontend Registry Web Extension
 
-Web extension which verifies that frontend builds of projects registered in a smart contract and associated with a particular ENS domain are legit / not compromised.
+Web extension which verifies that frontend builds of projects registered in a smart contract (find the repo [here](https://github.com/plsdlr/CanoicalFrontendRegistry)) and associated with a particular ENS domain are legit / not compromised.
 
 Developers can attest that they own the ENS domain of a particular web frontend and then can upload the hashes of their most recent frontend builds to a contract.
 
