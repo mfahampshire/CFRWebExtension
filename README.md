@@ -22,5 +22,5 @@ npm run build
 
 * Click on `Load Temporary Add-on` and select the `manifest.json` file in the project root. Also press `Inspect`: this will open another window which will show you the URLs of the files intercepted by the listener to be parsed. 
 
-* Navigate to `nascent.energy` - you will get a popup that the frontend code was verified against the contract and all is well. To see the failure conditions, comment out the `happypath` code block on `src/content.js#LN65` and uncomment the `sadpath`. 
+* Navigate to [nascent.energy](https://nascent.energy) - you will get a popup that the frontend code was verified against the contract and all is well. To see the failure conditions, comment out the `happypath` code block on `src/content.js#LN65` and uncomment the `sadpath`. 
 
